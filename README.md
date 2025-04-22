@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/abok-cymk/
+- Solution URL: https://github.com/abok-cymk/ecommerce-product-page-main
 - Live Site URL: 
 
 ## My process

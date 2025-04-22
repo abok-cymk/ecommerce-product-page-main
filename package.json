@@ -2,7 +2,6 @@
   "name": "ecommerce-product-page-main",
   "version": "1.0.0",
   "description": "![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)",
-  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,8 +13,11 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.4",
+    "lucide-react": "^0.503.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
