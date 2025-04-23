@@ -37,7 +37,7 @@ const Hero = () => {
           Featuring a durable rubber outer sole, they’ll withstand everything
           the weather can offer.
         </p>
-        <div className="mt-4">
+        <div className="mt-4 flex items-center justify-between md:block">
           <p className="font-700 text-xl">
             $125.00{" "}
             <span className="ml-3 text-xs bg-black text-white rounded py-0.5 px-2">
@@ -48,7 +48,7 @@ const Hero = () => {
             $250.00
           </span>
         </div>
-        <div className="md:flex md:gap-3 items-center w-full mt-3 md:mt-6">
+        <div className="md:flex md:gap-3 items-center w-full mt-5 md:mt-6">
           <CountButton />
           <button className="shadow-lg cursor-pointer mt-4 md:mt-0 w-full rounded-lg flex items-center justify-center gap-2 text-sm font-700 text-dark-blue px-6 py-2 bg-custom-orange">
             <img src="/icon-cart.svg" alt="shopping cart" /> Add to cart

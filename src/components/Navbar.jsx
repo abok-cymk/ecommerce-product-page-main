@@ -5,16 +5,16 @@ const navLinks = ["Collection", "Men", "Women", "About", "Contact"];
 
 const Navbar = ({ logo, cart, avatar }) => {
   return (
-    <nav className="px-6 md:px-0 flex justify-between items-center border-b border-b-grayish-blue pb-6 relative">
+    <nav className="px-6 md:px-0 flex justify-between items-center border-b border-b-grayish-blue pb-2 md:pb-6 relative">
       <div className="flex items-center gap-6">
         <a href="#">
-          <img src={logo} alt="logo" className="h-5" />
+          <img src={logo} alt="logo" className="h-4 md:h-5" />
         </a>
         <ul className="hidden md:flex items-center gap-6">
           {navLinks.map((link, link_idx) => (
             <li
               key={link_idx}
-              className="text-sm hover:decoration-custom-orange hover:decoration-2 hover:underline hover:underline-offset-[36px]"
+              className="text-sm hover:decoration-custom-orange hover:decoration-3 hover:underline hover:underline-offset-[36px]"
             >
               <a
                 href="#"
@@ -31,7 +31,7 @@ const Navbar = ({ logo, cart, avatar }) => {
         <img
           src={avatar}
           alt="profile picture"
-          className="h-8 md:h-10 w-8 md:w-10 object-cover"
+          className="rounded-full h-8 md:h-10 w-8 md:w-10 object-cover block hover:outline-2 hover:outline-offset-2 hover:outline-custom-orange cursor-pointer"
         />
       </div>
     </nav>
